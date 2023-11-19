@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--CDN-->
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  
+  <title>Simple Css | CONTACT</title>
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="animals.html">Hayvanlar</a></li>
+        <li><a href="contacts.html">İletişim</a></li>
+      </ul>
+    </nav>
+    <h3>İLETİŞİM</h3>
+  </header>
+
+  <form>
+    <p><strong>İletişim bilgilerini giriniz.</strong></p>
+  
+    <p><select>
+      <option selected="selected" value="1">Cinsiyet</option>
+      <option value="2">Erkek</option>
+      <option value="3">Kadın</option>
+    </select></p>
+  
+    <p>
+    <label>İsim</label>
+    <input type="text" name="first_name">
+    </p>
+  
+    <p>
+    <label>Soyisim</label>
+    <input type="text" name="surname">
+    </p>
+  
+    <p>
+    <label>Email</label>
+    <input type="email" name="email" required="">
+    </p>
+  
+    <p>
+    <label>İletişim tercihi:</label>
+    <label><input checked="checked" name="type" type="radio" value="sales" /> Telefon</label> 
+    <label><input name="type" type="radio" value="support" /> Email</label> 
+    </p>
+  
+    <p>
+    <label>Mesaj</label>
+    <textarea rows="3"></textarea>
+    </p>
+  
+    <p>
+    <label for="cars">Hayvanınızı seçin:</label>
+    <select name="animal" id="animal" multiple>
+    <option value="kedi">Kedi</option>
+    <option value="kopek">Köpek</option>
+    <option value="kus">Kuş</option>
+    <option value="diger">Diğer</option>
+    </select>
+    </p>
+  
+    <p>
+    <label>
+    <input type="checkbox" id="checkbox" value="terms">
+     <a href="#">Koşulları ve şartları</a> okudum ve kabul ediyorum.
+    </label>
+    </p>
+  
+    <button>Gönder</button>
+    <button type="reset">Sıfırla</button>
+  </form>
+
+
+
+  <footer>
+    <p>2023 &copy; | Created By Muhammed İbrahim Tatar</p>
+  </footer>
+
+</body>
+</html>
