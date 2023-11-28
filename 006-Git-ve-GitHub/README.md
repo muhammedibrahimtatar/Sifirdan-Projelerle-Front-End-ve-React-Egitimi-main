@@ -8,6 +8,7 @@
 
 ## Uygulamalar
 
+----------- GITIGNORE -------------
 NOTES
 
 gitignore ile belirtilen dosya tiplerini veya git'e yüklemek istemediğimiz alanları belirtebiliyoruz
@@ -27,3 +28,6 @@ Aşağıdaki alanlar gibi bazı dosyalar veya dosya tipleri versiyon kontrol sis
 
 ## FILE ##
 export.txt
+
+
+----------- GITIGNORE -------------
